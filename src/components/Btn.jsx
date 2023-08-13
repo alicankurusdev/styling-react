@@ -1,9 +1,8 @@
 import React from 'react'
 import "./Btn.css"
-const Btn = () => {
+const Btn = ({btnName}) => {
   return (
-    <div>Btn</div>
-  )
+<button>{btnName}</button>  )
 }
 
 export default Btn
