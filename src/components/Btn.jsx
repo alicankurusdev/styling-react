@@ -1,8 +1,10 @@
 import React from 'react'
-import "./Btn.css"
+import BtnStyle from "./Btn.module.css"
+
+
 const Btn = ({btnName}) => {
   return (
-<button>{btnName}</button>  )
+<button className={BtnStyle.btn}>{btnName}</button>  )
 }
 
 export default Btn

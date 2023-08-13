@@ -6,7 +6,7 @@ const Card = ({language,img,btnName}) => {
   return (
     <div className='card'>
       <div className="title">
-        {language}
+        <h2>{language}</h2>
       </div>
       <div className="img-container">
         <img src={img} alt="img" />

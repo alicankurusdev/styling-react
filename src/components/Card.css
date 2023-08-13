@@ -1,0 +1,24 @@
+.card{
+    border-radius: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card .title {
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    margin: 0.3rem 0;
+
+}
+img{
+    width: 140px;
+    border-radius: 8px;
+    
+}
+.img-container{
+    box-shadow: 2px 2px 5px black;
+            border-radius: 8px;
+
+}
